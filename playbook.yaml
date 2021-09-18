@@ -1,0 +1,6 @@
+---
+- hosts: target1
+  gather_facts: true
+  tasks:
+    - name: run the command
+      shell: echo "Ansible Command"
