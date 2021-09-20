@@ -1,5 +1,5 @@
 ---
-- hosts: target1
+- hosts: sit
   gather_facts: true
   tasks:
     - name: run the command
